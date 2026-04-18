@@ -1,0 +1,25 @@
+{"intents":[
+    {
+        "tag":"saludo",
+        "patterns":["hola", "que tal", "como estas", "saludos"],
+        "responses":["Hola", "Buenos Dias", "¿Como estas?"]
+    },
+    {
+        "tag":"nombre",
+        "patterns":["como es tu nombre", "como te llamas"],
+        "responses":["Me llamo Juan Pablo", "Mi nombre es Juan Pablo"]
+    },
+    {
+        "tag":"solicitud",
+        "patterns":[
+            "necesito algo",
+            "ayuda",
+            "necesito ayuda",
+            "¿puedes ayudarme?",
+            "auxilio"],
+        "responses": ["¿que necesitas?",
+         "¿En que te puedo ayudar?",
+         "Estoy aqui para apoyarte. Dime que necesitas"]
+    }
+]
+}
